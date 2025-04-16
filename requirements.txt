@@ -1,0 +1,23 @@
+# we should use this to set all the set-up files (This would be more official way to follow)
+# if you encounter compatibility issues, please refer to the comments to install using the wheels.
+torch==1.13.1  # pip install torch==1.13.1 torchvision --extra-index-url https://download.pytorch.org/whl/cu116 --force-reinstall
+torch_scatter # pip install https://data.pyg.org/whl/torch-1.13.0%2Bcu116/torch_scatter-2.1.1%2Bpt113cu116-cp310-cp310-linux_x86_64.whl 
+torch_sparse # pip install https://data.pyg.org/whl/torch-1.13.0%2Bcu116/torch_sparse-0.6.17%2Bpt113cu116-cp310-cp310-linux_x86_64.whl
+torch_geometric
+torch_harmonics
+
+open3d==0.17.0   # requires torch 1.13 and CUDA=11.6 #pip install https://github.com/isl-org/Open3D/releases/download/v0.17.0/open3d-0.17.0-cp310-cp310-manylinux_2_27_x86_64.whl
+tensorboard
+h5py
+meshio
+pyyaml
+
+neuraloperator
+tensorly
+tensorly-torch
+wandb 
+ruamel.yaml
+configmypy
+opt-einsum
+zarr
+torchtyping
